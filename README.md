@@ -1,1 +1,6 @@
 # nfv_energy_efficient
+
+Traditionally Network Functions (NFs) are performed in proprietary commodity hardware, such as - firewall, NAT, proxy, WAN accelerator, CDN, DHCP,UPnP etc. However, it has severe scaling issues along with dependency and high maintenance of hardware solutions. These network functions can have dependencies and many NFs can be chained together to create specific services. An example of such chain could be - (firewall+IDS+proxy). Telecommunication Service Providers (TSPs) have to purchase new equipments to meet the new consumer demand. Managing, upgrading and provide technical support to those densely deployed network equipments could lead to high capital and operational expenses~\cite{NFV_sota:Rashid2015}. It does not have the capacity to scale with high customer demand.
+Network Function Virtualization (NFV) is the way to decouple the physical equipments and the network functions. Such decoupling helps network provider to deploy new services faster compare to classical networking systems. It also enables TSPs to do dynamic scaling similar to cloud. 
+
+In this project we are trying to optimize the energy consumption of the resources allocated to the NF chains. 
